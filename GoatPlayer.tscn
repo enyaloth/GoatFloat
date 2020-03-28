@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://goat_2021568.jpg" type="Texture" id=1]
+[ext_resource path="res://GoatPlayer.gd" type="Script" id=2]
+
+[node name="KinematicBody2D" type="KinematicBody2D"]
+script = ExtResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 2.5, -1.00002 )
+scale = Vector2( 0.135, 0.119565 )
+texture = ExtResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
